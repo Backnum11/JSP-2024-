@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body {
+    width: auto;
+    height: auto;
+}
+
+#mainbox {
+    width: 1400px;
+    height: 800px;
+    border: solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mainbox1 {
+    width: 700px;
+    height: 800px;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+
+#mainbox2 {
+    width: 700px;
+    height: 800px;
+    background-color: aqua;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+}
